@@ -13,5 +13,5 @@ namespace App\Service;
 abstract class AbstractRestClient
 {
 
-    public abstract function getResponseBody(string $url): string;
+    public abstract function getResponseBody(string $url);
 }
