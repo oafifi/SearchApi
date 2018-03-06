@@ -1,3 +1,5 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/oafifi/SearchApi/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/oafifi/SearchApi/?branch=master)
+
 Tajawal Hotel Search API
 ----------
 
