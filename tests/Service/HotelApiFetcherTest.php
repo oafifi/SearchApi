@@ -22,7 +22,7 @@ class HotelApiFetcherTest extends KernelTestCase
         $restClient = $this->getMockBuilder(AbstractRestClient::class)
             ->getMockForAbstractClass();
 
-        $restClient->expects($this->any())->method('getResponseBody')->willReturn(
+        $restClient->expects($this->any())->method('getResponseBody')->withAnyParameters()->willReturn(
             <<<EOF
 {
    "hotels":[

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82e8e26d-0e80-46e2-ba39-a325914319dc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Service/HotelApiFetcher.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Service/JsonDeserializer.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Service/StringDeserializerInterface.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +29,18 @@
     <favorites_list name="TajawalHotelSearch" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="HotelApiFetcherTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Service/HotelApiFetcherTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -45,16 +54,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="php bin/console debug:router" />
-      <command text="php bin/console debug:config sensio_framework_extra" />
-      <command text="php bin/console debug:config fos_rest" />
-      <command text="php composer.phar require symfony/twig-bundle" />
-      <command text="php composer.phar remove symfony/twig-bundle" />
-      <command text="php bin/console debug:container" />
-      <command text="php bin/console cache:clear" />
-      <command text="php bin/console debug:container" />
-      <command text="php bin/console debug:container | grep Base" />
-      <command text="php bin/console debug:container" />
       <command text="php bin/console server:run" />
       <command text="php bin/console debug:container" />
       <command text="php composer.phar require --dev symfony/phpunit-bridge" />
@@ -70,6 +69,16 @@
       <command text="php bin/phpunit" />
       <command text="git -v" />
       <command text="git --version" />
+      <command text="git add ." />
+      <command text="git commit -m 'initial commit'" />
+      <command text="git remote add origin https://github.com/oafifi/SearchApi" />
+      <command text="git remote -v" />
+      <command text="git push -u origin master" />
+      <command text="git config --global user.name &quot;oafifi&quot;" />
+      <command text="git push -u origin master" />
+      <command text="php bin/phpunit" />
+      <command text="git pull" />
+      <command text="php bin/phpunit" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -218,6 +227,17 @@
               <item name="TajawalHotelSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="TajawalHotelSearch" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="TajawalHotelSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TajawalHotelSearch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TajawalHotelSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TajawalHotelSearch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Service" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -294,19 +314,20 @@
       <updated>1519829349409</updated>
       <workItem from="1519829351455" duration="52389000" />
       <workItem from="1520246995028" duration="5547000" />
-      <workItem from="1520277794681" duration="22258000" />
+      <workItem from="1520277794681" duration="23407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80194000" />
+    <option name="totallyTimeSpent" value="81343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2882353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -522,14 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Service/HotelApiFetcherTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Form/HotelSearchTypeTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -674,6 +687,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Service/HotelApiFetcherTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
           <folding />
         </state>
       </provider>
